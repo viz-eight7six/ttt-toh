@@ -1,0 +1,41 @@
+.hanoi {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: space-around;
+  width: 500px;
+  list-style-type: none;
+    margin: auto;
+}
+.pile {
+  height: 100px;
+  width: 100px;
+  background-color: #FFF;
+  /*text-decoration: underline;
+  text-decoration-color: #000;*/
+  list-style-type: none;
+  border-bottom: 10px solid black;
+  cursor: pointer;
+    margin: auto;;
+}
+
+.disc3 {
+  height: 20px;
+  width: 100px;
+  background-color: #000;
+  margin: auto;
+}
+
+.disc2 {
+  height: 20px;
+  width: 75px;
+  background-color: #000;
+  margin: auto;
+}
+
+.disc1 {
+  height: 20px;
+  width: 50px;
+  background-color: #000;
+  margin: auto;
+
+}

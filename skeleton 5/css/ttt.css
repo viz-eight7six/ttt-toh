@@ -1,0 +1,26 @@
+.grid {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: space-around;
+  width: 318px;
+  list-style-type: none;
+}
+.cell {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: #000;
+  background-color: #999;
+}
+
+.mark {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: #000;
+  background-color: #FF0000;
+  font-size: 100px;
+  line-height: 80px;
+  display: block;
+  text-align: center;
+}
